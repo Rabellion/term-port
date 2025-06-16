@@ -5,6 +5,9 @@ export default function(output, _hist, ...args) {
         case 'github':
             window.open('https://github.com/Rabellion');
             break;
+            case 'linkedin':
+            window.open('https://www.linkedin.com/in/huzaifa-imran-994932195/');
+            break;
         case 'discord':
             window.open('discord://-/users/845391729549115402');
             break;
@@ -14,6 +17,7 @@ export default function(output, _hist, ...args) {
         default:
             output.innerHTML += `\
 <span data-color="white">Github: <a href="https://github.com/Rabellion">@Rabellion</a></span>
+<span data-color="Blue">LinkedIn: <a href="https://www.linkedin.com/in/huzaifa-imran-994932195/">Huzaifa Imran</a></span>`;
 <span data-color="MediumSlateBlue">Discord: <a href="discord://-/users/845391729549115402">rabellion</a></span>
 <span data-color="yellow">Email: <a href="mailto:huzaifaimran583@gmail.com">huzaifaimran583@gmail.com</a></span>`;
         return;
